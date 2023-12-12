@@ -1,39 +1,856 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <title>A-Frame Castle</title>
-</head>
-<body>
-    <a-scene>
-        <!-- Ground -->
-        <a-plane position="0 0 0" rotation="-90 0 0" width="30" height="30" color="#888"></a-plane>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+        <title>A-Frame Kashyyyk</title>
+    </head>
+    <body>
+        <a-scene>
 
-        <!-- Castle Base -->
-        <a-box position="0 1 0" width="10" height="2" depth="10" color="#c0c0c0"></a-box>
+            <a-sky src="https://codehs.com/uploads/456a0cb38af40f33b50b5c7443d52c9b"></a-sky>
 
-        <!-- Castle Towers -->
-        <a-cylinder position="-5 5 -5" radius="2" height="10" color="#808080"></a-cylinder>
-        <a-cylinder position="5 5 -5" radius="2" height="10" color="#808080"></a-cylinder>
-        <a-cylinder position="-5 5 5" radius="2" height="10" color="#808080"></a-cylinder>
-        <a-cylinder position="5 5 5" radius="2" height="10" color="#808080"></a-cylinder>
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="0 0 0"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane> 
 
-        <!-- Castle Walls -->
-        <a-box position="-8 3 0" width="1" height="6" depth="10" color="#c0c0c0"></a-box>
-        <a-box position="8 3 0" width="1" height="6" depth="10" color="#c0c0c0"></a-box>
-        <a-box position="0 3 -8" width="10" height="6" depth="1" color="#c0c0c0"></a-box>
-        <a-box position="0 3 8" width="10" height="6" depth="1" color="#c0c0c0"></a-box>
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="20 0 0"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
 
-        <!-- Castle Door -->
-        <a-box position="0 0.5 5" width="2" height="1" depth="0.1" color="#8B4513"></a-box>
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 0"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
 
-        <!-- Sun -->
-        <a-light type="directional" position="-5 5 -5" target="#castle" intensity="0.5"></a-light>
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 0"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
 
-        <!-- Camera -->
-        <a-entity camera look-controls wasd-controls position="0 5 15"></a-entity>
-    </a-scene>
-</body>
+            <a-plane
+            src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+            position="80 0 0"
+            rotation="-90 0 0"
+            height="20"
+            width="20"
+        >
+        </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="0 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane> 
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="0 0 40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane> 
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="0 0 60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="0 0 80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="20 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="20 0 40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="20 0 60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="20 0 80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <!-- Now Reverse-->
+
+
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-20 0 0"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 0"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 0"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 0"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="0 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane> 
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="0 0 -40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane> 
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="0 0 -60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="0 0 -80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-20 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-20 0 -40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-20 0 -60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-20 0 -80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 -40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 -60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 -80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 -40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 -60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 -80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 -40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 -60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 -80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <!-- Left side reverse-->
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-20 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-20 0 40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-20 0 60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-20 0 80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-40 0 80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-60 0 80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="-80 0 80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <!-- Right side reverse-->
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="20 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="20 0 -40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="20 0 -60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="20 0 -80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 -40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 -60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="40 0 -80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 -40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 -60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="60 0 -80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 -20"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 -40"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 -60"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+            <a-plane
+                src="https://codehs.com/uploads/2536957ff2138ea8b4995599980e0f19"
+                position="80 0 -80"
+                rotation="-90 0 0"
+                height="20"
+                width="20"
+            >
+            </a-plane>
+
+        </a-scene>
+    </body>
 </html>
