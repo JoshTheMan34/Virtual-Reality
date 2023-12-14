@@ -1,0 +1,11 @@
+Model Information:
+* title:	Star Wars Republic Venator Star Destroyer
+* source:	https://sketchfab.com/3d-models/star-wars-republic-venator-star-destroyer-8709051658be46f2ac2a747c782febda
+* author:	Andrew Deltoro (https://sketchfab.com/AndrewDeltoro)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Star Wars Republic Venator Star Destroyer" (https://sketchfab.com/3d-models/star-wars-republic-venator-star-destroyer-8709051658be46f2ac2a747c782febda) by Andrew Deltoro (https://sketchfab.com/AndrewDeltoro) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
